@@ -1,4 +1,6 @@
 import MainHeader from "./components/header/MainHeader";
+import MainRow from "./components/mainRow/MainRow";
+import MainRow2 from "./components/mainRow/MainRow2";
 
 export default function Home() {
 
@@ -16,7 +18,8 @@ export default function Home() {
   return (
     <>
     <MainHeader></MainHeader>
-
+    <MainRow></MainRow>
+    <MainRow2></MainRow2>
     {testItems}
     </>
   );
